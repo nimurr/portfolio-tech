@@ -11,7 +11,7 @@ const Hero = () => {
                             <img className='mr-2 w-5' src="https://img.icons8.com/?size=48&id=YMqRHr9A2OZh&format=png" alt="" />
                             business & solution
                         </h2>
-                        <h1 className='text-8xl font-bold my-5'>The AI-powered Customer <br /> Service Platform</h1>
+                        <h1 className='lg:text-8xl text-5xl font-bold my-5'>The AI-powered Customer <br /> Service Platform</h1>
                         <p className='text-xl text-[#1b0c25] my-10'>Fluence AI helps you connect, manage, and optimize your AI tools effortlessly. Unlock powerful <br />  insights and automate complex processes with ease.</p>
                         <div>
                             <button className='mr-5 cursor-pointer bg-[#1b0c25] text-white py-3 px-8 rounded-xl'>Get Started</button>
