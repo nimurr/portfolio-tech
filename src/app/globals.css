@@ -31,3 +31,12 @@ body {
   box-shadow: none !important;
   background: transparent !important;
 }
+
+.bgImageUseBanner {
+  background-image: url('/Images/banner.avif') !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin-top: 10px;
+}
