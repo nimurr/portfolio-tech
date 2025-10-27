@@ -8,16 +8,16 @@ const Header = () => {
     const toggleMenu = () => setIsOpen(!isOpen);
 
     return (
-        <div className="containerCustom sticky backdrop-blur-xl z-[999] border border-gray-200 rounded-xl  mx-auto top-10 left-0 right-0">
+        <div className="containerCustom sticky backdrop-blur-sm z-[999] border border-gray-200 rounded-xl  mx-auto top-10 left-0 right-0">
             <nav className="">
                 <div className=" flex justify-between items-center px-6 py-4">
                     {/* Logo */}
-                    <a href="#hero" className="text-2xl max-w-[100px] font-bold text-gray-800">
+                    <a href="#hero" className="text-2xl max-w-[100px] text-gray-800">
                         <img className="w-full" src="/Images/logo.png" alt="" />
                     </a>
 
                     {/* Desktop Menu */}
-                    <ul className="hidden lg:flex items-center space-x-8 font-medium text-gray-500 text-xl">
+                    <ul className="hidden lg:flex items-center space-x-8  text-[#16081f9c] text-xl">
                         <li>
                             <a href="#features" className="hover:text-[#1b0c25] duration-200">
                                 Features
@@ -61,7 +61,7 @@ const Header = () => {
 
                 {/* Mobile Dropdown Menu */}
                 {isOpen && (
-                    <div className="lg:hidden absolute top-full left-0 w-full backdrop-blur-2xl rounded-2xl border bg-[#19181aec] border-white/50 text-white">
+                    <div className="lg:hidden absolute top-full left-0 w-full backdrop-blur-sm rounded-2xl border bg-[#19181aec] border-white/50 text-white">
                         <ul className="flex flex-col items-center py-4 space-y-4  font-medium">
                             <li>
                                 <a href="#features" onClick={toggleMenu}>
